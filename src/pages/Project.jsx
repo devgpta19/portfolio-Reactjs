@@ -131,19 +131,24 @@ const Project = () => {
                         My Projects</h1>
                 </div>
                 <div className='flex h-[90%] product lg:flex-row lg:flex-wrap flex-col gap-8 justify-center items-center'>
-                    <a style={{ backgroundImage: `url('/images/TODO-Project.jpg')`, }} href='https://todoreact-beige.vercel.app/' className='hover:shadow-orange-200 hover:shadow-md transform hover:scale-105 transition duration-300 ease-in-out bg-cover bg-center h-48 w-64 bg-transparent rounded-md shadow-xl shadow-zinc-950 flex justify-center items-center text-zinc-200 font-bold text-xl'>
-                        <div className='h-full w-full backdrop-blur-lg text-2xl bg-white/10 flex justify-center items-center'>
-                            <h1 className='bg-transparent text-orange-50 font-mono' >Project 1</h1>
+                    <a style={{ backgroundImage: `url('/images/RocketAir.png')`, }} href='https://devgpta19.github.io/Clone_RocketAir/' className='hover:shadow-orange-200 hover:shadow-md transform hover:scale-105 transition duration-300 ease-in-out bg-cover bg-center h-48 w-64 bg-transparent rounded-md shadow-xl shadow-zinc-950 flex justify-center items-center text-zinc-200 font-bold text-xl'>
+                        <div className='h-full w-full backdrop-blur-lg text-2xl bg-white/5 flex justify-center items-center'>
+                            <h1 className='bg-transparent text-orange-50 font-mono' >RocketAir_Clone</h1>
                         </div>
                     </a>
                     <a style={{ backgroundImage: `url('/images/TODO-Project.jpg')`, }} href='https://todoreact-beige.vercel.app/' className='hover:shadow-orange-200 hover:shadow-md transform hover:scale-105 transition duration-300 ease-in-out bg-cover bg-center h-48 w-64 bg-transparent rounded-md shadow-xl shadow-zinc-950 flex justify-center items-center text-zinc-200 font-bold text-xl'>
-                        <div className='h-full w-full backdrop-blur-lg text-2xl bg-white/10 flex justify-center items-center'>
-                            <h1 className='bg-transparent text-orange-50 font-mono' >Project 1</h1>
+                        <div className='h-full w-full backdrop-blur-lg text-2xl bg-white/5 flex justify-center items-center'>
+                            <h1 className='bg-transparent text-orange-50 font-mono' >TODO_React</h1>
                         </div>
                     </a>
-                    <a style={{ backgroundImage: `url('/images/TODO-Project.jpg')`, }} href='https://todoreact-beige.vercel.app/' className='hover:shadow-orange-200 hover:shadow-md transform hover:scale-105 transition duration-300 ease-in-out bg-cover bg-center h-48 w-64 bg-transparent rounded-md shadow-xl shadow-zinc-950 flex justify-center items-center text-zinc-200 font-bold text-xl'>
+                    <a style={{ backgroundImage: `url('/images/Portfolio-1.png')`, }} href='https://react-portfolio-plum-phi-94.vercel.app/' className='hover:shadow-orange-200 hover:shadow-md transform hover:scale-105 transition duration-300 ease-in-out bg-cover bg-center h-48 w-64 bg-transparent rounded-md shadow-xl shadow-zinc-950 flex justify-center items-center text-zinc-200 font-bold text-xl'>
                         <div className='h-full w-full backdrop-blur-md text-2xl bg-white/5 flex justify-center items-center'>
-                            <h1 className='bg-transparent text-orange-50 font-mono' >Project 1</h1>
+                            <h1 className='bg-transparent text-orange-50 font-mono' >Portfolio</h1>
+                        </div>
+                    </a>
+                    <a style={{ backgroundImage: `url('/images/LandingPage.png')`, }} href='https://devgpta19.github.io/LandingPage2/' className='hover:shadow-orange-200 hover:shadow-md transform hover:scale-105 transition duration-300 ease-in-out bg-cover bg-center h-48 w-64 bg-transparent rounded-md shadow-xl shadow-zinc-950 flex justify-center items-center text-zinc-200 font-bold text-xl'>
+                        <div className='h-full w-full backdrop-blur-md text-2xl bg-white/5 flex justify-center items-center'>
+                            <h1 className='bg-transparent text-zinc-800 font-mono' >Landing Page</h1>
                         </div>
                     </a>
 
