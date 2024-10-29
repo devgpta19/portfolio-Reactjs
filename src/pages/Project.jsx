@@ -95,8 +95,8 @@ const Project = () => {
                         scrollTrigger: {
                             trigger: '.el',
                             scrub: 1,
-                            start: 'top -415%',
-                            end: 'top -410%',
+                            start: 'top -350%',
+                            end: 'top -340%',
                         },
                         y: 0,
                         duration: 0.5,
