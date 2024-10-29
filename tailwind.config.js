@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {},
     screens: {
-      'sm': '600px',
+      'sm': '400px',
       // => @media (min-width: 400px) { ... }
 
       'md': '768px',
@@ -22,7 +22,11 @@ export default {
       '2xl': '1536px',
       // => @media (min-width: 1536px) { ... }
 
-      'max-sm': {'max': '400px'},
+
+
+
+
+      'max-sm': {'max': '600px'},
       // => @media (max-width: 400px) { ... }
 
       'max-md': {'max': '768px'},
