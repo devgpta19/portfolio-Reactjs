@@ -24,7 +24,7 @@ const Project = () => {
                     {
                         scrollTrigger: {
                             trigger: 'el',
-                            scrub: 1,
+                            // scrub: 1,
                             start: 'top -270%',
                             end: 'top -260%',
                         },
@@ -40,7 +40,7 @@ const Project = () => {
                     {
                         scrollTrigger: {
                             trigger: '.el',
-                            scrub: 1,
+                            // scrub: 1,
                             start: 'top -280%',
                             end: 'top -260%',
                         },
@@ -56,7 +56,7 @@ const Project = () => {
                     {
                         scrollTrigger: {
                             trigger: '.el',
-                            scrub: 1,
+                            // scrub: 1,
                             start: 'top -300%',
                             end: 'top -300%',
                         },
@@ -78,7 +78,7 @@ const Project = () => {
                     {
                         scrollTrigger: {
                             trigger: 'el',
-                            scrub: 1,
+                            // scrub: 1,
                             start: 'top -400%',
                             end: 'top -390%',
                         },
@@ -94,7 +94,7 @@ const Project = () => {
                     {
                         scrollTrigger: {
                             trigger: '.el',
-                            scrub: 1,
+                            // scrub: 1,
                             start: 'top -350%',
                             end: 'top -340%',
                         },
@@ -110,7 +110,7 @@ const Project = () => {
                     {
                         scrollTrigger: {
                             trigger: '.el',
-                            scrub: 1,
+                            // scrub: 1,
                             start: 'top -415%',
                             end: 'top -410%',
                         },
@@ -149,7 +149,7 @@ const Project = () => {
 
                 </div>
                 <div className='mt-5 flex justify-center items-end'>
-                    <h1 className=' absolute github text-gray-50 text-xl bottom-1 bg-transparent' >View Projects : <a className='text-orange-400 uppercase' href="https://github.com/devgpta19">Github</a>.</h1>
+                    <h1 className=' absolute github text-gray-50 text-xl bottom-1 bg-transparent' >View Projects : <a className='text-orange-400 uppercase bg-transparent font-semibold' href="https://github.com/devgpta19">Github</a>.</h1>
                 </div>
             </div>
 

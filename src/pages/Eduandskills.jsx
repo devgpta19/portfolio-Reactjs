@@ -24,7 +24,7 @@ const Eduandskills = () => {
                     {
                         scrollTrigger: {
                             trigger: 'el',
-                            scrub: 1,
+                            // scrub: 1,
                             start: 'top -80%',
                             end: 'top -70%',
                         },
@@ -40,7 +40,7 @@ const Eduandskills = () => {
                     {
                         scrollTrigger: {
                             trigger: 'el',
-                            scrub: 1,
+                            // scrub: 1,
                             start: 'top -100%',
                             end: 'top - 90%',
                         },
@@ -56,7 +56,7 @@ const Eduandskills = () => {
                     {
                         scrollTrigger: {
                             trigger: '.el',
-                            scrub: 1,
+                            // scrub: 1,
                             start: 'top -100%',
                             end: 'top -90%',
                         },
@@ -76,7 +76,7 @@ const Eduandskills = () => {
                     {
                         scrollTrigger: {
                             trigger: 'el',
-                            scrub: 1,
+                            // scrub: 1,
                             start: 'top -105%',
                             end: 'top - 60%',
                         },
@@ -92,7 +92,7 @@ const Eduandskills = () => {
                     {
                         scrollTrigger: {
                             trigger: 'el',
-                            scrub: 1,
+                            // scrub: 1,
                             start: 'top -150%',
                             end: 'top - 140%',
                         },
@@ -108,7 +108,7 @@ const Eduandskills = () => {
                     {
                         scrollTrigger: {
                             trigger: '.el',
-                            scrub: 1,
+                            // scrub: 1,
                             start: 'top -200%',
                             end: 'top - 190%',
                         },
