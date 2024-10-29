@@ -137,7 +137,7 @@ const Home = () => {
       <div ref={ref} className=' py-5 px-10 min-h-screen min-w-screen md:gap-8 md:px-3 justify-center items-center lg:justify-between flex flex-col lg:flex-row lg:items-center'>
         <div>
           <div className='h-full max-sm:w-full flex justify-center items-center'>
-            <h1 className='heading tracking-wider font-bold max-sm:text-[3rem] max-sm:leading-[2rem] text-[8rem] text-orange-50 leading-[6rem] text-center lg:text-left mt-10'>
+            <h1 className='heading tracking-wider font-bold max-sm:text-[3.5rem] font-sans max-sm:leading-[2.7rem] text-[8rem] text-orange-50 leading-[6rem] text-center lg:text-left mt-10'>
               <div className="wel bg-transparent">Welcome to</div>
               <div className="des bg-transparent">My Design</div>
               <div className="port bg-transparent">Portfolio</div></h1>
