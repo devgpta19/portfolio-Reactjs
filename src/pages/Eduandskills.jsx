@@ -128,7 +128,7 @@ const Eduandskills = () => {
             <div ref={ref} className='px-3'>
                 <div className='min-h-screen w-full flex lg:flex-row flex-col p-5 lg:justify-between'>
                     <div className='h-full lg:w-[40%] px-3'>
-                        <h1 className=' headd bg-transparent tracking-wider font-bold	text-[4rem] text-left decoration-orange-50 underline decoration-2 text-orange-50 leading-[6rem] lg:text-left mt-10 lg:ml-10' >
+                        <h1 className='max-sm:text-[3rem]  headd bg-transparent tracking-wider font-bold	text-[4rem] text-left decoration-orange-50 underline decoration-2 text-orange-50 leading-[6rem] lg:text-left mt-10 lg:ml-10' >
                             My Skills</h1>
 
                         <div className='text-left text-yellow-50 pt-10 text-xl lg:ml-10'>
@@ -155,7 +155,7 @@ const Eduandskills = () => {
                         </div>
                     </div>
                     <div className='h-full lg:w-[40%] px-3'>
-                        <h1 className=' headd bg-transparent tracking-wider font-bold	text-[4rem] text-right decoration-orange-50 underline decoration-2 text-orange-50 leading-[6rem] lg:text-right mt-10 lg:mr-10' >
+                        <h1 className=' max-sm:text-[3rem]  headd bg-transparent tracking-wider font-bold	text-[4rem] text-right decoration-orange-50 underline decoration-2 text-orange-50 leading-[6rem] lg:text-right mt-10 lg:mr-10' >
                             My Education</h1>
 
                         <div className=' educate text-right text-yellow-50 pt-10 text-xl lg:mr-10'>

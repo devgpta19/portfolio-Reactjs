@@ -307,7 +307,7 @@ const Headline = () => {
     <>
       <div ref={ref} className='h-screen p-5 w-full flex justify-center items-center'>
         <div className='px-3  h-full p-10 flex justify-center items-center w-full text-center'>
-          <h1 className='text-center flex  lg:flex-row lg:inline-flex flex-wrap bg-transparent lg:w-[50%] tracking-wider font-bold w-full items-center justify-center gap-3	text-[4rem] decoration-orange-50-2 text-orange-50 leading-[6rem] mt-10 lg:ml-10' >
+          <h1 className='text-center flex max-sm:text-[3rem] lg:flex-row lg:inline-flex flex-wrap bg-transparent lg:w-[50%] tracking-wider font-bold w-full items-center justify-center gap-3	text-[4rem] decoration-orange-50-2 text-orange-50 leading-[6rem] max-sm:leading-[5rem] mt-10 lg:ml-10' >
 
             <div className='popup8'>Projects </div>
             <div className='popup7'>speak </div>

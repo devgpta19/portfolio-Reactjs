@@ -127,7 +127,7 @@ const Project = () => {
         <>
             <div ref={ref} className=' relative min-h-screen w-full p-5'>
                 <div className='px-3'>
-                    <h1 className='prohead bg-transparent tracking-wider font-bold	text-[4rem] text-left decoration-orange-50 underline decoration-2 text-orange-50 leading-[6rem] lg:text-left mt-10 lg:ml-10' >
+                    <h1 className='max-sm:text-[3rem]  prohead bg-transparent tracking-wider font-bold	text-[4rem] text-left decoration-orange-50 underline decoration-2 text-orange-50 leading-[6rem] lg:text-left mt-10 lg:ml-10' >
                         My Projects</h1>
                 </div>
                 <div className='flex h-[90%] product lg:flex-row lg:flex-wrap flex-col gap-8 justify-center items-center'>
