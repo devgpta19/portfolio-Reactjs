@@ -79,8 +79,8 @@ const Project = () => {
                         scrollTrigger: {
                             trigger: 'el',
                             // scrub: 1,
-                            start: 'top -400%',
-                            end: 'top -390%',
+                            start: 'top -370%',
+                            end: 'top -360%',
                         },
                         y: 0,
                         duration: 0.5,
@@ -95,8 +95,8 @@ const Project = () => {
                         scrollTrigger: {
                             trigger: '.el',
                             // scrub: 1,
-                            start: 'top -350%',
-                            end: 'top -340%',
+                            start: 'top -370%',
+                            end: 'top -370%',
                         },
                         y: 0,
                         duration: 0.5,

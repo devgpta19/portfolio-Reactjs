@@ -10,69 +10,136 @@ gsap.registerPlugin(ScrollTrigger);
 const Home = () => {
   const ref = useRef();
   useEffect(() => {
-    gsap.fromTo('.wel',
-      {
-        x: -800,
-        opacity: 0,
-      },
-      {
-        x: 0,
-        duration:0.5,
-        opacity: 100,
-      })
-    gsap.fromTo('.des',
-      {
-        x: -800,
-        opacity: 0,
-      },
-      {
-        x: 0,
-        duration:1,
-        opacity: 100,
-      })
-    gsap.fromTo('.port',
-      {
-        x: -800,
-        opacity: 0,
-      },
-      {
-        x: 0,
-        duration:1.5,
-        opacity: 100,
-      })
-    gsap.fromTo('.extra',
-      {
-        y:50,
-        opacity: 0,
-      },
-      {
-        y:0,
-        opacity: 100,
-        duration:1,
-      })
-    gsap.fromTo('.photo',
-      {
-        x: -1000,
-        opacity: 0,
-      },
-      {
-        // scrollTrigger:{
+    const el = ref.current;
 
-        // },
-        x: 0,
-        duration:1.5,
-        opacity: 100,
-      })
+    ScrollTrigger.matchMedia({
+
+      "(min-width: 1024px)": function () {
+        gsap.fromTo('.wel',
+          {
+            x: -800,
+            opacity: 0,
+          },
+          {
+            x: 0,
+            duration: 0.5,
+            opacity: 100,
+          });
+        gsap.fromTo('.des',
+          {
+            x: -800,
+            opacity: 0,
+          },
+          {
+            x: 0,
+            duration: 1,
+            opacity: 100,
+          });
+        gsap.fromTo('.port',
+          {
+            x: -800,
+            opacity: 0,
+          },
+          {
+            x: 0,
+            duration: 1.5,
+            opacity: 100,
+          });
+        gsap.fromTo('.extra',
+          {
+            y: 50,
+            opacity: 0,
+          },
+          {
+            y: 0,
+            opacity: 100,
+            duration: 1,
+          });
+        gsap.fromTo('.photo',
+          {
+            x: -1000,
+            opacity: 0,
+          },
+          {
+            x: 0,
+            duration: 1.5,
+            opacity: 100,
+          });
+      },
+
+
+      // MOBILE VIEW
+
+      "(max-width: 767px)": function () {
+        gsap.fromTo('.wel',
+          {
+            x: -800,
+            opacity: 0,
+          },
+          {
+            x: 0,
+            duration: 0.5,
+            opacity: 100,
+          });
+        gsap.fromTo('.des',
+          {
+            x: -800,
+            opacity: 0,
+          },
+          {
+            x: 0,
+            duration: 1,
+            opacity: 100,
+          });
+        gsap.fromTo('.port',
+          {
+            x: -800,
+            opacity: 0,
+          },
+          {
+            x: 0,
+            duration: 1.5,
+            opacity: 100,
+          });
+        gsap.fromTo('.extra',
+          {
+            y: 50,
+            opacity: 0,
+          },
+          {
+            y: 0,
+            opacity: 100,
+            duration: 1,
+          });
+        gsap.fromTo('.photo',
+          {
+            x: -1000,
+            opacity: 0,
+          },
+          {
+            scrollTrigger:{
+              trigger:'el',
+              start : 'top -5%',
+              end:'top -5%'
+            },
+
+            x: 0,
+            duration: 0.5,
+            opacity: 100,
+          });
+      }
+    })
   })
+
 
   return (
     <>
       <div ref={ref} className=' py-5 px-10 min-h-screen min-w-screen md:gap-8 md:px-3 justify-center items-center lg:justify-between flex flex-col lg:flex-row lg:items-center'>
         <div>
           <div className='h-full max-sm:w-full flex justify-center items-center'>
-            <h1 className='heading tracking-wider font-bold max-sm:text-[4rem] max-sm:leading-[4rem] text-[8rem] text-orange-50 leading-[6rem] text-center lg:text-left mt-10'>
+            <h1 className='heading tracking-wider font-bold max-sm:text-[3rem] max-sm:leading-[2rem] text-[8rem] text-orange-50 leading-[6rem] text-center lg:text-left mt-10'>
               <div className="wel bg-transparent">Welcome to</div>
-              <div className="des bg-transparent">My Design</div> 
+              <div className="des bg-transparent">My Design</div>
               <div className="port bg-transparent">Portfolio</div></h1>
           </div>
           <div className='h-20 w-full flex justify-center items-center lg:inline' >
