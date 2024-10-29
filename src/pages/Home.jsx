@@ -56,6 +56,9 @@ const Home = () => {
         opacity: 0,
       },
       {
+        // scrollTrigger:{
+
+        // },
         x: 0,
         duration:1.5,
         opacity: 100,
@@ -64,10 +67,10 @@ const Home = () => {
 
   return (
     <>
-      <div ref={ref} className=' py-5 px-10 md:gap-8 md:px-3 justify-center items-center lg:justify-between flex flex-col lg:flex-row lg:items-center min-h-screen w-full'>
+      <div ref={ref} className=' py-5 px-10 min-h-screen min-w-screen md:gap-8 md:px-3 justify-center items-center lg:justify-between flex flex-col lg:flex-row lg:items-center'>
         <div>
-          <div className='h-full max-sm:w-screen flex bg-slate-500 justify-center items-center'>
-            <h1 className='heading tracking-wider bg-cyan-300 font-bold max-sm:text-[6rem] max-sm:leading-[3rem] text-[8rem] text-orange-50 leading-[6rem] text-center lg:text-left mt-10' >
+          <div className='h-full max-sm:w-full flex justify-center items-center'>
+            <h1 className='heading tracking-wider font-bold max-sm:text-[6rem] max-sm:leading-[5rem] text-[8rem] text-orange-50 leading-[6rem] text-center lg:text-left mt-10' >
               <div className="wel bg-transparent">Welcome to</div>
               <div className="des bg-transparent">My Design</div> 
               <div className="port bg-transparent">Portfolio</div></h1>
