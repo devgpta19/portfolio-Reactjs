@@ -134,7 +134,7 @@ const Home = () => {
 
   return (
     <>
-      <div ref={ref} className=' py-5 px-10 min-h-screen min-w-screen md:gap-8 md:px-3 justify-center max-sm:pt-48 items-center lg:justify-between flex flex-col lg:flex-row lg:items-center'>
+      <div ref={ref} className=' py-5 px-10 min-h-screen min-w-screen md:gap-8 md:px-3 justify-center max-sm:pt-56 items-center lg:justify-between flex flex-col lg:flex-row lg:items-center'>
         <div>
           <div className='h-full max-sm:w-full flex justify-center items-center'>
             <h1 className='heading tracking-wider font-bold max-sm:text-[3.7rem] font-sans max-sm:leading-[3rem] text-[8rem] text-orange-50 leading-[6rem] text-center lg:text-left mt-10'>
