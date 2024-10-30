@@ -86,9 +86,9 @@ const Connect = () => {
                             </div>
                         </div>
 
-                        <div className='flex items-center justify-center p-10 bg-slate-600'>
-                            <div className='w-[70%] max-sm:w-[80%] bg-red-400 flex justify-center items-center flex-col'>
-                                <h1 className='text-center bg-transparent text-orange-50' >Imagine the world where every interaction is seamless, every design captivates the eye, every application shares a story, every user feels truly valued, and everything is wonderfully easy to use.</h1> <br />
+                        <div className='flex items-center justify-center p-10'>
+                            <div className='w-[70%] max-sm:w-[80%] flex justify-center items-center flex-col'>
+                                <h1 className='text-center bg-transparent text-orange-200 lg:text-xl' >Imagine the world where every interaction is seamless, every design captivates the eye, every application shares a story, every user feels truly valued, and everything is wonderfully easy to use.</h1> <br />
                                 <a className='text-center bg-transparent text-orange-50 font-mono' href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSHxjdKhjZBtKpCKBhpVgpMjzqlVbCrTcBhGdrHQwZwXTmNhcnDfMLTkcdnLQwzCSkJjZBrT"><h2 className='text-center bg-transparent text-orange-50 font-mono text-xs lg:text-lg'>
                                     devansh2002gupta@gmail.com</h2></a>
                                 <h2 className='text-center text-orange-50 font-mono text-xs lg:text-lg bg-transparent' >+91 8839897252</h2>
