@@ -29,7 +29,7 @@ export default {
       'max-sm': {'max': '600px'},
       // => @media (max-width: 400px) { ... }
 
-      'max-md': {'max': '768px'},
+      'max-md': {'max': '910px'},
       // => @media (max-width: 768px) { ... }
 
       'max-lg': {'max': '1024px'},

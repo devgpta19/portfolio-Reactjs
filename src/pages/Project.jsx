@@ -25,8 +25,8 @@ const Project = () => {
                         scrollTrigger: {
                             trigger: 'el',
                             // scrub: 1,
-                            start: 'top -270%',
-                            end: 'top -260%',
+                            start: 'top -370%',
+                            end: 'top -370%',
                         },
                         y: 0,
                         duration: 0.5,
@@ -79,8 +79,8 @@ const Project = () => {
                         scrollTrigger: {
                             trigger: 'el',
                             // scrub: 1,
-                            start: 'top -320%',
-                            end: 'top -320%',
+                            start: 'top -420%',
+                            end: 'top -420%',
                         },
                         y: 0,
                         duration: 0.5,
@@ -95,8 +95,8 @@ const Project = () => {
                         scrollTrigger: {
                             trigger: '.el',
                             // scrub: 1,
-                            start: 'top -330%',
-                            end: 'top -330%',
+                            start: 'top -430%',
+                            end: 'top -430%',
                         },
                         y: 0,
                         duration: 0.5,
@@ -111,8 +111,8 @@ const Project = () => {
                         scrollTrigger: {
                             trigger: '.el',
                             // scrub: 1,
-                            start: 'top -345%',
-                            end: 'top -345%',
+                            start: 'top -445%',
+                            end: 'top -445%',
                         },
                         y: 0,
                         duration: 1.5,
@@ -186,7 +186,7 @@ const Project = () => {
                 </div>
 
                 <div className='mt-5 flex justify-center items-end'>
-                    <h1 className=' absolute github text-gray-50 text-xl bottom-1 bg-transparent' >View Projects : <a className='text-orange-400 uppercase bg-transparent font-semibold' href="https://github.com/devgpta19">Github</a>.</h1>
+                    <h1 className=' absolute github text-gray-50 text-xl bottom-1 bg-transparent' >View Projects : <a className='text-orange-400 bg-transparent font-semibold hover:text-orange-200' href="https://github.com/devgpta19">Github</a>.</h1>
                 </div>
             </div>
 

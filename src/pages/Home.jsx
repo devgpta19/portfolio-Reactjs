@@ -140,7 +140,7 @@ const Home = () => {
             <h1 className='heading tracking-wider font-bold max-sm:text-[3.7rem] font-sans max-sm:leading-[3rem] text-[8rem] text-orange-50 leading-[6rem] text-center lg:text-left mt-10'>
               <div className="wel bg-transparent">Welcome to</div>
               <div className="des bg-transparent">My Design</div>
-              <div className="port bg-transparent">Portfolio</div></h1>
+              <div className="port bg-transparent text-orange-400">Portfolio</div></h1>
           </div>
           <div className='h-20 w-full flex justify-center items-center lg:inline' >
             <div className='extra h-12 mt-8 lg:mt-0 flex justify-center items-center rounded-full w-80 border-2 gap-8 px-2 border-orange-50'>
