@@ -109,8 +109,8 @@ const Eduandskills = () => {
                         scrollTrigger: {
                             trigger: '.el',
                             // scrub: 1,
-                            start: 'top -360%',
-                            end: 'top - 360%',
+                            start: 'top -260%',
+                            end: 'top -260%',
                         },
                         x: 0,
                         duration: 0.5,

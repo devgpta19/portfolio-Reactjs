@@ -88,11 +88,11 @@ const Connect = () => {
 
                         <div className='flex items-center justify-center p-10'>
                             <div className='w-[70%] max-sm:w-[80%] flex justify-center items-center flex-col'>
-                                <h1 className='text-center bg-transparent text-orange-200 lg:text-xl' >Imagine the world where every interaction is seamless, every design captivates the eye, every application shares a story, every user feels truly valued, and everything is wonderfully easy to use.</h1> <br />
-                                <a className='text-center bg-transparent text-orange-50 font-mono' href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSHxjdKhjZBtKpCKBhpVgpMjzqlVbCrTcBhGdrHQwZwXTmNhcnDfMLTkcdnLQwzCSkJjZBrT"><h2 className='text-center bg-transparent text-orange-50 font-mono text-xs lg:text-lg'>
+                                <h1 className='text-center bg-transparent text-orange-50 lg:text-3xl text-[1.8rem]' ><span className='text-orange-400'>Imagine </span> the world where every interaction is seamless, <span className='text-orange-400'>every design </span> captivates the eye, <span className='text-orange-400'>every application </span> shares a story, <span className='text-orange-400'>every user </span> feels truly valued, and everything is wonderfully easy to use.</h1> <br />
+                                <a className='text-center bg-transparent text-orange-50 font-mono' href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSHxjdKhjZBtKpCKBhpVgpMjzqlVbCrTcBhGdrHQwZwXTmNhcnDfMLTkcdnLQwzCSkJjZBrT"><h2 className='text-center bg-transparent text-orange-50 font-mono text-[1.2rem] lg:text-lg'>
                                     devansh2002gupta@gmail.com</h2></a>
-                                <h2 className='text-center text-orange-50 font-mono text-xs lg:text-lg bg-transparent' >+91 8839897252</h2>
-                                <h2 className='text-center text-orange-50 font-mono text-xs lg:text-lg bg-transparent' >Bengaluru, Karnataka</h2>
+                                <h2 className='text-center text-orange-50 font-mono text-[1.2rem] lg:text-lg bg-transparent' >+91 8839897252</h2>
+                                <h2 className='text-center text-orange-50 font-mono text-[1.2rem] lg:text-lg bg-transparent' >Bengaluru, Karnataka</h2>
                             </div>
                         </div>
                     </div>
