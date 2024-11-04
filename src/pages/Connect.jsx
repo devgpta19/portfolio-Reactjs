@@ -97,11 +97,14 @@ const Connect = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='absolute bg-transparent bottom-1 mt-3 w-full pb-5 flex justify-center items-end'>
-                        <div>
-                            <h1 className='text-zinc-300 text-xl font-light' >Connect on <a className='text-orange-500 font-semibold hover:text-orange-200' href="https://www.linkedin.com/in/devgpta19/" target='_blank'><BsLinkedin /></a> </h1>
+
+                    <div className='flex justify-center items-end'>
+                        <div className='absolute mt-5 bottom-1 bg-transparent'>
+                            <h1 className=' flex justify-between gap-5 github text-gray-50 text-xl bottom-1 bg-transparent' >Connect on <span><a className='text-orange-400 bg-transparent font-semibold text-2xl hover:text-orange-200' href="https://www.linkedin.com/in/devgpta19/"><BsLinkedin /></a></span> </h1>
                         </div>
                     </div>
+
+
                 </div>
             </div>
         </>
