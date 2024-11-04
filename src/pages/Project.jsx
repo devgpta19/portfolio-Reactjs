@@ -2,6 +2,7 @@ import React, { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 import { ScrollToPlugin } from 'gsap/all';
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { BsGithub } from "react-icons/bs";
 
 
 
@@ -163,7 +164,7 @@ const Project = () => {
                         Landing Pages</h1>
                 </div>
 
-                <div className='flex h-[90%] product lg:flex-row lg:flex-wrap flex-col gap-8 justify-center items-center'>
+                <div className='flex h-[90%] product lg:flex-row lg:flex-wrap mb-5 flex-col gap-8 justify-center items-center'>
 
                     <a style={{ backgroundImage: `url('/images/LandingPage.png')`, }} href='/images/LandingPage.png' className='hover:shadow-orange-200 hover:shadow-md transform hover:scale-105 transition duration-300 ease-in-out bg-cover bg-center h-48 w-64 bg-transparent rounded-md shadow-xl shadow-zinc-950 flex justify-center items-center text-zinc-200 font-bold text-xl'>
                         <div className='h-full w-full text-2xl bg-white/5 flex justify-center items-center'>
@@ -186,7 +187,7 @@ const Project = () => {
                 </div>
 
                 <div className='mt-5 flex justify-center items-end'>
-                    <h1 className=' absolute github text-gray-50 text-xl bottom-1 bg-transparent' >View Projects : <a className='text-orange-400 bg-transparent font-semibold hover:text-orange-200' href="https://github.com/devgpta19">Github</a>.</h1>
+                    <h1 className=' absolute github text-gray-50 text-xl bottom-1 bg-transparent' >View Projects : <a className='text-orange-400 bg-transparent font-semibold hover:text-orange-200' href="https://github.com/devgpta19"><BsGithub /></a>.</h1>
                 </div>
             </div>
 

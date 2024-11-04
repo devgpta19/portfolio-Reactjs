@@ -177,7 +177,7 @@ const Eduandskills = () => {
                             </h1>
                             <h2 className='font-mono text-sm text-zinc-400 mb-3' >(ISC Board)</h2>
                             <h2 className='text-slate-400'>
-                                Lakshmi Narain College of Technology & Science, Bhopal(M.P.)
+                            Rani Laxmibai Public School, Datia(M.P.)
                             </h2>
                         </div>
 

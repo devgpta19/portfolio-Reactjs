@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
+import { BsLinkedin } from "react-icons/bs";
 
 
 const Connect = () => {
@@ -98,7 +99,7 @@ const Connect = () => {
                     </div>
                     <div className='absolute bg-transparent bottom-1 mt-3 w-full pb-5 flex justify-center items-end'>
                         <div>
-                            <h1 className='text-zinc-300 text-xl font-light' >Connect on <a className='text-orange-500 font-semibold hover:text-orange-200' href="https://www.linkedin.com/in/devgpta19/" target='_blank'>LinkedIn.</a> </h1>
+                            <h1 className='text-zinc-300 text-xl font-light' >Connect on <a className='text-orange-500 font-semibold hover:text-orange-200' href="https://www.linkedin.com/in/devgpta19/" target='_blank'><BsLinkedin /></a> </h1>
                         </div>
                     </div>
                 </div>
